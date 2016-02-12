@@ -1,0 +1,4 @@
+[
+	{ "caption": "Run Psql", "command": "psql", "args": {"files": []} },
+	{ "caption": "Run Psql in New Window", "command": "psql", "args": {"files": [], "output_to_newfile": "True"} }
+]
