@@ -2,38 +2,40 @@
     "id": "tools",
     "children": 
     [{
-        "caption": "PostgreSQL",
-        "id": "psql-tools",
+        "caption": "Delimited Data",
+        "id": "delimited-data-tools",
         "children": 
         [{
-            "caption": "Execute",
-            "id": "psql-tools-execute",
-            "command": "psql"
+            "caption": "Format (Default)",
+            "id": "delimited-data-tools-format",
+            "command": "delimited_format"
         },
         {
-            "caption": "Execute (New File)",
-            "id": "psql-tools-execute-new",
-            "command": "psql",
-            "args": {"output_to_newfile": "True"}
+            "caption": "Format (Tab)",
+            "id": "delimited-data-tools-format-tab",
+            "command": "delimited_format","args": 
+            {
+                "delimiter": "\t",
+                "text_field_identifier": "\""
+            }
         },
-        { "caption": "-" },
-        {  
-            "caption": "New Window",
-            "id": "psql-tools-new-window",
-            "command": "psql_conn"
+        {
+            "caption": "Format (Comma)",
+            "id": "delimited-data-tools-format-comma",
+            "command": "delimited_format","args": 
+            {
+                "delimiter": ",",
+                "text_field_identifier": "\""
+            }
         },
-        {  
-            "caption": "New Connection",
-            "id": "psql-tools-new-connection",
-            "command": "psql_conn_new"
-        },
-        {  
-            "caption": "Connections",
-            "id": "psql-tools-connections",
-            "children": 
-            [{
-                "caption": "-"
-            }]
+        {
+            "caption": "Format (Semicolon)",
+            "id": "delimited-data-tools-format-comma",
+            "command": "delimited_format","args": 
+            {
+                "delimiter": ";",
+                "text_field_identifier": "\""
+            }
         },
         { "caption": "-" },
         {

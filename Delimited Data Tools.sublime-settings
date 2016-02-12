@@ -1,0 +1,5 @@
+{
+    "default_delimiter": ";",
+    "default_text_field_identifier": "\"",
+    "default_output_to_newfile": "True"
+}

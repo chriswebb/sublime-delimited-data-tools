@@ -1,0 +1,40 @@
+[
+    {
+        "caption": "Preferences: Delimited Data Tools – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/Delimited Data Tools/Delimited Data Tools.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Delimited Data Tools – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/Delimited Data Tools.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: Default Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Windows).sublime-keymap",
+            "platform": "Windows"
+        }
+    },
+    {
+        "caption": "Preferences: Default Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (OSX).sublime-keymap",
+            "platform": "OSX"
+        }
+    },
+    {
+        "caption": "Preferences: Default Key Bindings – User",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default (Linux).sublime-keymap",
+            "platform": "Linux"
+        }
+    }
+]
